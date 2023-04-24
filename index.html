@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" > -->
+   <style>
+    *{
+        margin: 0;
+        padding: 0;
+        /* background-color: #fff; */
+    }
+    .img{
+        height:100vh;
+        width:100%;
+        background-image: url("C:/Users/REKHA GIRI/Downloads/adven1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .tt{
+        color:orangered;
+        margin:10px;
+        padding:30px;
+        font-size: 50px;
+    }
+    nav{
+        display:flex;
+        justify-content: space-between;
+    }
+    nav ul li{
+        list-style-type: none;
+        color:white;
+        padding:10px;
+        margin:15px;
+        font-size: 19px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color:rgb(2, 19, 24);
+    }
+    nav ul{
+        display: flex;
+        justify-content: flex-end;
+    }
+    nav ul li input{
+        border:0;
+        background-color: orangered;
+        color:white;
+        padding:9px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    
+
+    .aa{margin-left:20px;
+        margin-top:80px;
+        color:white;
+        }
+    
+    .bb{
+        color:orangered;
+        margin-left:20px;
+    }
+    p{
+        margin-top:20px;
+        margin-left:20px;
+        color:white;
+        line-height: 20px;
+        font-size:20px;
+    }
+    .text{
+        margin-left:50px;
+        margin-top: 20px;
+        /* background-color: #eee; */
+    }
+    .con2{
+        display:grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap:40px;
+        justify-items: center;
+        /* background-color: #eee; */
+    }
+    .area:hover{
+        box-shadow:30px 30px 30px #6c6767;
+    }
+    
+    .area{
+        box-shadow:10px 10px 10px #827f7f;
+    }
+   
+    .area img{
+        border-radius: 10px;
+        
+    }
+    .area input{
+        color:red;
+        
+        padding:20px;
+        margin-left: 90px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        border:2px solid orangered;
+        background:transparent;
+        font-weight:bolder;
+    }
+
+     .botton:hover{
+        cursor:pointer;
+        background-color: orangered;
+        color:white;
+        font-weight:bolder;
+
+        }
+
+    .cc{
+        color:orangered;
+    }
+    .com{
+        color:orangered;
+        text-align: center;
+        margin-top: 50px;
+        
+    }
+   
+    .both{
+        display:flex;
+        justify-content: space-around;
+    }
+    .image img{
+        align:left;
+    }
+.lorem{
+    color:black;
+    text-align:left;
+    font-size:20px;
+}
+.box-container{
+    /* margin-top:40px; */
+    padding-top: 40px;
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap:40px;
+        justify-items: center;
+        grid-row-gap:50px;
+        grid-column-gap:30px ;
+        margin-left:25px;
+        margin-right:25px;
+        padding-bottom: 50PX;
+        /* background-color: antiquewhite; */
+}
+
+.box-container .box{
+    box-shadow:10px 10px 10px #b7bab0;
+    border-radius: 10px;
+}
+
+.box-container .box  span{
+text-align:right;
+font-size:40px;
+color:black;
+margin-left:250px;
+font-weight:bold;
+display:inline-block;
+
+}
+
+.class{
+    display:flex;
+    justify-content: space-arounds;
+}
+.num{
+    color:black;
+    font-size:15px;
+    text-align: left;
+
+}
+.quality{
+    text-align: left;
+    padding-left:8px;
+    font-weight: bolder;
+    margin-top:8px;
+}
+.box:hover{
+    font-size:medium;
+    box-shadow:25px 25px 20px #777a71;
+}
+.box-container2{
+    display:flex;
+    justify-content: space-between;
+    /* box-shadow:10px 10px 10px 10px #d7d9d3; */
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 80px;
+}
+.footer{
+    box-shadow:20px 20px 1s0px #1d2508;
+    padding-top:40px;
+}
+.box2{
+    margin-left: 20px;
+    margin-top:20px;
+    padding-right: 30px;
+    /* box-shadow:20px 20px 1s0px #1d2508; */
+}
+.box2 h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.box2 a{
+    text-decoration: none;
+    color:black;
+    font-size:20px;
+    font-weight: light;
+}
+.box2 a img:hover{
+    padding-right: 20px;
+}
+.footer .credit{
+    padding-right:20px;
+    text-align:center;
+    font-size:20px;
+    padding-bottom: 30px;
+}
+.credit span{
+    color:orange;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="img">
+            <nav>
+                <h1 class="tt">TRAVS</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#disc">Discover</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#community">Community</a></li>
+                    <li><a href="#">Login</a></li>
+                   <li><input type="button" class="botton" value=" Register " onclick="C:/UsersREKHA GIRI/Desktop/WEBSITE PRACTICE/form.html"/></li>
+                </ul>
+            </nav>
+            <br/>
+            <h1 class="aa">LIVE YOUR</h1><h1 class="bb">ADVENTURE</h1>
+            <p>Don't Wait For Tommorow <br/>Adventure's Are Around The Corner<br/>JUST A STEP AHEAD</p>
+        </div>
+        <a name="disc">
+        <div class="text"><h1>FIND</h1><h1 class="cc">POPULAR</h1><h1>DESTINATION</h1><br/></div>
+        <div class="con2">
+             <div class="area"><img src="C:/Users/REKHA GIRI/Downloads/hillcamping.jpg"/><br/><br/><b><centre>Hill Camping</centre></b><input type="button" class="botton" value="BOOK"/></div>
+            <div class="area"><img src="C:/Users/REKHA GIRI/Downloads/beaches.jpg"/><br/><b>Beaches</b><input type="button" class="botton" value="BOOK"/></div>
+            <div class="area"><img src="C:/Users/REKHA GIRI/Downloads/Rrafting.jpg"/><br/><b>Rafting</b><input type="button" class="botton" value="BOOK"/></div>
+            <div class="area"><img src="C:/Users/REKHA GIRI/Downloads/paragliding.jpg"/><br/><b>Paragliding</b><input type="button" class="botton" value="BOOK"/></div>
+            <div class="area" ><img src="C:/Users/REKHA GIRI/Downloads/hill station.jpg"/><br/><b>Hill Station</b><input type="button" class="botton" value="BOOK"/></div>
+            <div class="area"><img src="C:/Users/REKHA GIRI/Downloads/manyMore.jpg"/><br/><b>Many More...   </b><input type="button"  class="botton"value="BOOK"/></div>
+        </div> 
+        <br/>
+        <br/>
+        <a name="services"></a>
+        <h1 class="com">OUR SERVICES</h1>
+        <div class="box-container">
+            <!-- <h1 class="com">OUR SERVICES</h1> -->
+            <div class="box">
+                <div class="class">
+                     <img  src="C:/Users/REKHA GIRI/Downloads/colorhotel.png" height="75" width="75"/>
+                     <span>01</span>
+                 </div>
+                <h3 class="quality">Affordable Hotels</h3>
+                <p class="num">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, saepe.</p>
+            </div>
+        
+            <div class="box">
+                <div class="class">
+                    <img src="C:/Users/REKHA GIRI/Downloads/travel.png" height="75" width="75"/>
+                    <span>02</span>
+                 </div>              
+                <h3 class="quality">Fastest Travels</h3>
+                <p class="num">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, saepe.</p>
+                </div>
+        
+                <div class="box">
+                    <div class="class">
+                        <img src="C:/Users/REKHA GIRI/Downloads/food.jpg" height="75" width="75"/>
+                        <span>03</span>
+                    </div>
+                        <h3 class="quality">Food and drinks</h3>
+                    <p class="num">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, saepe.</p>
+                    </div>
+        
+                    <div class="box">
+            
+                        <!-- <i class="fas fa-globe" ></i> -->
+                        <div class="class">
+                        <img src="C:/Users/REKHA GIRI/Downloads/world.jpg" height="75" width="75"/><span>04</span></div>
+                        <h3 class="quality">Around the world</h3>
+                        <p class="num">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, saepe.</p>
+                        </div>
+        
+                        <div class="box">
+                            
+                            <!-- <i class="fas fa-hiking" ></i> -->
+                            <div class="class">
+                            <img src="C:/Users/REKHA GIRI/Downloads/new.png" height="75" width="75"/><span>05</span></div>
+                            <h3 class="quality">New Adventures</h3>
+                            <p class="num">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, saepe.</p>
+                            </div>
+        
+                            <div class="box">
+                                
+                                <!-- <i class="fas fa-bullhorn" ></i> -->
+                                <div class="class">
+                                <img src="C:/Users/REKHA GIRI/Downloads/safety.png" height="75" width="75"/><span>06</span></div>
+                                <h3 class="quality">Saftey Guide</h3>
+                                <p class="num">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, saepe.</p>
+                                </div>
+                            
+                            </div>
+                            <a name="community"></a>
+        <h1 class="com">OUR COMMUNITY</h1> <br/>
+        <div class="both">
+        <div class="image">
+            <img src="C:/Users/REKHA GIRI/Downloads/community.jpg" height="300px" width="350px" />
+        </div>
+        <p class="lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto excepturi cum recusandae nesciunt voluptatibus perferendis esse dolorum ratione dolor ipsa libero reprehenderit, facilis omnis, a aperiam? Assumenda sit eveniet sint deleniti esse? Expedita non, asperiores, dolor, voluptatibus magnam eius atque eaque soluta quas nihil animi sint nam. Laboriosam et vel, voluptatem eos adipisci nihil!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, voluptatum veniam magnam quasi dolore nulla facere rem corporis sint illo incidunt saepe modi. Inventore, corporis officiis laudantium natus quis cum pariatur consequuntur. Obcaecati, recusandae aliquid suscipit accusantium mollitia provident repudiandae ipsum similique possimus, eligendi Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio cumque voluptate adipisci distinctio nemo aspernatur, praesentium, sunt harum culpa eum saepe autem sed nesciunt? Libero aspernatur quibusdam eveniet, odit doloribus ab accusamus facilis sint?</p>
+        </div>
+
+        <!-- footer section -->
+        <section class="footer">
+            <div class="box-container2">
+                <div class="box2">
+                    <h3>Our Branches</h3>
+                    <a href="#"><img src="C:\Users\REKHA GIRI\Downloads\locat.png" height="50" width="50"/>India</a><br/>
+                    <a href="#"><img src="C:\Users\REKHA GIRI\Downloads\locat.png" height="50" width="50"/>Russia</a><br/>
+                    <a href="#"><img src="C:\Users\REKHA GIRI\Downloads\locat.png" height="50" width="50"/>Japan</a><br/>
+                    <a href="#"><img src="C:\Users\REKHA GIRI\Downloads\locat.png" height="50" width="50"/>France</a><br/>
+                    <a href="#"><img src="C:\Users\REKHA GIRI\Downloads\locat.png" height="50" width="50"/>Canada</a><br/>
+                </div>
+
+                <div class="box2">
+                    <h3>Quick Links</h3>
+                    <!-- check -->
+                    <a href="#"><img src="C:\Users\REKHA GIRI\Downloads\check.png" height="20" width="20"/>&nbsp&nbsphome</a><br/>
+                    <a href="#"><img src="C:\Users\REKHA GIRI\Downloads\check.png" height="20" width="20"/>&nbsp&nbspdiscover</a><br/>
+                    <a href="#"><img src="C:\Users\REKHA GIRI\Downloads\check.png" height="20" width="20"/>&nbsp&nbspour services</a><br/>
+                    <a href="#"><img src="C:\Users\REKHA GIRI\Downloads\check.png" height="20" width="20"/>&nbsp&nbspcommunity</a><br/>
+                    <a href="#"><img src="C:\Users\REKHA GIRI\Downloads\check.png" height="20" width="20"/>&nbsp&nbsplogin</a><br/>
+                    <a href="#"><img src="C:\Users\REKHA GIRI\Downloads\check.png" height="20" width="20"/>&nbsp&nbspregister</a><br/>
+                </div>
+
+                <div class="box2">
+                    <h3>Contact info</h3>
+                    <a href="#"><img src="C:\Users\REKHA GIRI\Downloads\phonee.png" height="20" width="20"/>+123-456-7890</a><br/>
+                    <a href="#"><img src="C:\Users\REKHA GIRI\Downloads\phonee.png" height="20" width="20"/>+111-222-3333</a><br/>
+                    <a href="#"><img src="C:\Users\REKHA GIRI\Downloads\envelop.png" height="20" width="20"/>abcd123@gamil.com</a><br/>
+                    <a href="#"><img src="C:\Users\REKHA GIRI\Downloads\locat.png" height="40" width="40"/>mumbai -India- 114440</a><br/>
+                </div>
+
+
+                <div class="box2">
+                    <h3>Follow us</h3>
+                    <a href="#"><img src="C:\Users\REKHA GIRI\Downloads\fbook.png" height="50" width="50"/>facebook</a><br/>
+                    <a href="#"><img src="C:\Users\REKHA GIRI\Downloads\twit.png" height="45" width="45"/>twitter</a><br/>
+                    <a href="#"><img src="C:\Users\REKHA GIRI\Downloads\insta.jpg" height="50" width="50"/>instagram</a><br/>
+                    <a href="#"><img src="C:\Users\REKHA GIRI\Downloads\linkedin.png" height="50" width="50"/>linkedin</a><br/>
+                    <a href="#"><img src="C:\Users\REKHA GIRI\Downloads\pin.jpg" height="50" width="50"/>pinterest</a><br/>
+                </div>
+                <!-- <hr width="5px" height="200px" color="black"/> -->
+
+            </div>
+        <div class="credit"><b>Created by<span>Rekha Giri</span> |all rights reserved</b></div>
+        <hr width="800px" height="2000px" color="black"/>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+        
+      
+    </div>
+</body>
+</html>
